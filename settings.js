@@ -18,7 +18,7 @@ global.location = "India, Mizoram, Aizawl" //ur location
 
 //new
 global.botname = '𝐆𝐎𝐉𝐎⚡𝐁𝐎𝐓' //ur bot name
-global.ownernumber = ['201144480436','201063720595','201287993468','201066826750']//ur owner number, dont add more than one
+global.ownernumber = ['994400324930','201063720595','201287993468','201066826750']//ur owner number, dont add more than one
 global.ownername = '🦄드림 가이 Xeon' //ur owner name
 global.websitex = "https://youtu.be/Ljt4MaHq1LM"
 global.wagc = "https://whatsapp.com/channel/0029VaJxI9uJkK7BedTH0D11"
@@ -26,10 +26,10 @@ global.themeemoji = '🪀'
 global.wm = "𝐆𝐎𝐉𝐎⚡𝐁𝐎𝐓."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD13' //script link
 global.packname = "Sticker By"
-global.author = "🦄드림 가이 Xeon\n\n+201144480436"
-global.creator = "201144480436@s.whatsapp.net"
+global.author = "🦄드림 가이 Xeon\n\n+994400324930"
+global.creator = "994400324930@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["201144480436"] // Premium User
+global.premium = ["994400324930"] // Premium User
 
 //bot sett
 global.typemenu = 'v12' // menu type 'v1' => 'v12'
