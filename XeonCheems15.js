@@ -16760,7 +16760,7 @@ break
 			const xmenu_oh = `
 *╮─────「 الترحيب 」─────╭*
 *│مرحبا: ${m.pushName ? m.pushName : 'No name'}*
-*│الرقم: +${me.split('@')[0]}*
+*│الرقم: +${me.split('@')[0]}.*
 *│الايدي: @${m.sender.split('@')[0]}*
 *│رتبتك: ${isVip ? 'مميز' : isPremium ? 'بريميم' : 'عضو'}*
 *│فلوسك: ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}*
@@ -17069,13 +17069,13 @@ let msg = generateWAMessageFromContent(m.chat, {
                 "buttonParamsJson": 
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"},
-{"header":"SEARCH MENU",
-"title":"click to display",
-"description":"Displays The List Of Search Features",
+{"header":"قـائـمـة الـبـحـث 🔍",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 البحث",
+"description":"",
 "id":"${prefix}searchmenu"},
 {"header":"DOWNLOAD MENU",
 "title":"click to display",
@@ -18105,9 +18105,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -18509,9 +18509,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -18892,9 +18892,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -19230,9 +19230,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -19582,9 +19582,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -19951,9 +19951,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -20289,9 +20289,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -20672,9 +20672,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -21006,9 +21006,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -21336,9 +21336,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -21681,9 +21681,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -22021,9 +22021,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -22411,9 +22411,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -22744,9 +22744,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -23205,9 +23205,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -23545,9 +23545,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -23879,9 +23879,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -24210,9 +24210,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -24539,9 +24539,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -24874,9 +24874,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
@@ -25216,9 +25216,9 @@ let msg = generateWAMessageFromContent(m.chat, {
 `{"title":"قـائـمـة الاوامـر ⚡",
 "sections":[{"title":"${ownername}",
 "highlight_label":"${botname}",
-"rows":[{"header":"ALL MENU",
-"title":"click to display",
-"description":"Displays The List Of All The Features",
+"rows":[{"header":"كـل الاوامـر 📜",
+"title":"امر⇇𝑀𝑉𝑅𝛩 𝐵𝛩𝑇 المهام",
+"description":"",
 "id":"${prefix}allmenu"}]
 }]
 }`
