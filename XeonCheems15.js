@@ -16758,37 +16758,26 @@ break
             const a = db.users[sender]
             const me = m.sender
 			const xmenu_oh = `
-╭──❍「 *GREETING* 」❍
-├ *Hi 👋*
-├ *${m.pushName}* 
-├ *${xeonytimewisher} 😄* 
-╰─┬────❍ ${readmore}
-╭─┴❍「 *USER INFO* 」❍
-├ *Name* : ${m.pushName ? m.pushName : 'No name'}
-├ *Number* : +${me.split('@')[0]}
-├ *Id* : @${m.sender.split('@')[0]}
-├ *User* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
-├ *Limit* : ${isVip ? 'VIP' : global.db.users[m.sender].limit }
-├ *Money* : ${global.db.users[m.sender] ? global.db.users[m.sender].uang.toLocaleString('en-IN') : '0'}
-╰─┬────❍
-╭─┴─❍「 *BOT INFO* 」❍
-├ *Speed* : ${latensie.toFixed(4)} miliseconds
-├ *Runtime* : ${runtime(process.uptime())}
-├ *Host* : ${os.hostname()}
-├ *Platform* : ${os.platform()}
-├ *Bot Name* : ${global.botname}
-├ *Owner* : @${ownernumber[0].split('@')[0]}
-├ *Mode* : ${XeonBotInc.public ? 'Public' : 'Self'}
-├ *Total User* : ${Object.keys(global.db.users).length} User
-├ *Total Hit* : ${global.db.settings[botNumber].totalhit} Hit
-├ *Total Chat* : ${Object.keys(global.db.groups).length} Chat/Gc
-├ *Prefix* :「 ${xprefix} 」
-╰─┬────❍
-╭─┴─❍「 *TIME* 」❍
-├ *Date* : ${xdate}
-├ *Day* : ${xday}
-├ *Time* : ${xtime}
-╰─┬────❍
+*╮─────「 الترحيب 」─────╭*
+*│مرحبا: ${m.pushName ? m.pushName : 'No name'}*
+*│الرقم: +${me.split('@')[0]}*
+*│الايدي: @${m.sender.split('@')[0]}*
+*│رتبتك: ${isVip ? 'مميز' : isPremium ? 'بريميم' : 'عضو'}*
+*│فلوسك: ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}*
+*╯──────────────────╰*
+> -------------------------------------
+*╮───「 معلومات الـبوت 」───╭*
+*│السرعة: ${latensie.toFixed(4)} فالثانية*
+*│مده التشغيل: ${runtime(process.uptime())}*
+*│اسم البوت: ${global.botname}*
+*│لا تنسي قبل اي امر ضيف: 「 ${xprefix} 」*
+*╯──────────────────╰*
+> -------------------------------------
+*╮──────「 الوقـت 」─────╭*
+*│التاريخ: ${xdate}*
+*│اليوم: ${xday}*
+*│الساعه: ${xtime}*
+*╯──────────────────╰*
 ╭─┴❍「 *MENU* 」❍
 │${setv} ${prefix}allmenu
 │${setv} ${prefix}searchmenu
